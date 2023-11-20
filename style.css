@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /*  para el fondo*/
+    background-color: #f9f9f9;
+
+    background-image: linear-gradient(30deg, #84d7fa 12%, transparent 12.5%, transparent 87%, #84d7fa 87.5%, #84d7fa), linear-gradient(150deg, #84d7fa 12%, transparent 12.5%, transparent 87%, #84d7fa 87.5%, #84d7fa), linear-gradient(30deg, #84d7fa 12%, transparent 12.5%, transparent 87%, #84d7fa 87.5%, #84d7fa), linear-gradient(150deg, #84d7fa 12%, transparent 12.5%, transparent 87%, #84d7fa 87.5%, #84d7fa), linear-gradient(60deg, #84d7fa77 25%, transparent 25.5%, transparent 75%, #84d7fa77 75%, #84d7fa77), linear-gradient(60deg, #84d7fa77 25%, transparent 25.5%, transparent 75%, #84d7fa77 75%, #84d7fa77);
+    background-size: 44px 77px;
+    background-position: 0 0, 0 0, 22px 39px, 22px 39px, 0 0, 22px 39px;
+
+    /*  para el ancho */
+    width: 100%;
+    /* convierte en flex al contenedor */
+    display: flex;
+
+    align-items: center;
+
+    min-height: 100vh;
+
+    justify-content: center;
+}
+
+main {
+
+    background-color: white;
+    width: 40%;
+}
+
+section {
+
+    padding: 2.2rem;
+}
+
+section article {
+    margin-bottom: 2rem;
+    padding: 2rem;
+    border-bottom: 3px solid black;
+}
+
+figure {
+    display: flex;
+    gap: 1rem;
+}
+
+figure figcaption p {
+    margin-top: 1.3rem;
+}
+
+.rounded-md {
+    border-radius: 1.5rem;
+}
+
+.list-icons {
+    list-style: none;
+}
+.list-texto {
+   font-family:'Courier New';
+}
+
+i {
+    font-size: 1.3 rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.gap-2 {
+    gap: 1rem
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: #84d7fa;
+    /* Cambiado a fondo blanco */
+}
+
+th {
+    text-align: center;
+}
+
+th,
+td {
+    padding: 1rem;
+    border: 1px solid black;
+    font-family: 'Courier New';
+    text-align: center;
+    /* Centra el texto en las celdas */
+}
+
+thead {
+
+    background-color: rgb(165, 175, 177);
+    border-bottom: 1px solid black;
+}
+
+
+h1,
+p,
+h3 {
+    font-family: 'Courier New';
+}
+
+button {
+    background-color: #598fee;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
